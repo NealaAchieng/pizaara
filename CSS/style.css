@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Kanit", sans-serif;
+}
+
 .nav {
   background-color: #F4F7FB;
 }
@@ -42,4 +46,42 @@ a {
 .nav ul li a:hover {
   background-color: #EEA539;
   color: #fff;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 5em;
+}
+.hero__container h1 {
+  font-size: 5.5rem;
+}
+.hero__container form {
+  width: 100%;
+}
+.hero__container form input {
+  padding: 1em;
+  border: none;
+  outline: none;
+  width: 85%;
+}
+.hero__container form button {
+  width: 10%;
+  padding: 1em;
+}
+.hero__left--orange {
+  color: #EEA539;
+}
+.hero__left__search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  border: 4px solid #F4F7FB;
+  border-radius: 5px;
+}
+.hero__left, .hero__right {
+  flex: 1;
 }
