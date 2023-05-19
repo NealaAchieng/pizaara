@@ -1,0 +1,39 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.why{
+    &__container{
+        @include flex( center,center);
+        background-color: $light-grey;
+        gap: 5em;      
+    }
+    &__right--stats{
+background-color: $white;
+@include flex(space-between,center)
+    }
+
+&__orange{
+    color: $orange;
+}
+  
+.img{
+    background-color: $black;
+    border-radius: 50%;
+    height: 50px;
+    width:50px ;
+    padding: 3em;
+    margin:2em;
+
+}
+h4{
+    color: $orange;
+    font-size: 1rem;
+}
+h2{
+    font-size:3rem;
+    padding: 1em;
+}
+
+
+}
+
+

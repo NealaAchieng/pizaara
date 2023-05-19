@@ -145,3 +145,164 @@ body {
   width: 200px;
   height: 200px;
 }
+
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 3em;
+}
+.menu li {
+  padding: 1em, 0;
+}
+.menu p {
+  text-align: center;
+  padding: 1em;
+}
+.menu h2 {
+  text-align: center;
+  margin-top: 3em;
+}
+.menu h3 {
+  text-align: center;
+}
+.menu .btn__black {
+  background-color: black;
+  color: #fff;
+  padding: 0.5em;
+  font-size: larger;
+  margin-top: 1em;
+  width: 65%;
+}
+.menu .btn__orange {
+  background-color: #EEA539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 0.5em;
+  display: block;
+  margin: 2em auto;
+  width: 13%;
+  font-size: 1rem;
+  border: none;
+  font-weight: bold;
+}
+.menu .picture {
+  background-color: #F4F7FB;
+  margin-top: 3em;
+  height: 44vh;
+  text-align: center;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.why__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #F4F7FB;
+  gap: 5em;
+}
+.why__right--stats {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.why__orange {
+  color: #EEA539;
+}
+.why .img {
+  background-color: #000;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 3em;
+  margin: 2em;
+}
+.why h4 {
+  color: #EEA539;
+  font-size: 1rem;
+}
+.why h2 {
+  font-size: 3rem;
+  padding: 1em;
+}
+
+.detail {
+  margin: 10em;
+}
+.detail__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.detail p {
+  text-align: center;
+  padding: 0.5em;
+}
+.detail h2 {
+  text-align: center;
+  padding: 1em;
+}
+.detail .img {
+  background-color: #F4F7FB;
+  text-align: center;
+  padding: 2em;
+  width: 60%;
+  margin-right: 2em;
+}
+
+.footer {
+  background-color: #000;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.footer li {
+  padding: 2em;
+  font-size: 1rem;
+  color: #fff;
+}
+.footer p {
+  color: #fff;
+}
+.footer form {
+  width: 100%;
+  font-size: 0;
+}
+.footer input {
+  padding: 3em;
+  border: none;
+  outline: none;
+  width: 70%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.footer button {
+  width: 20%;
+  padding: 3em 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #EEA539;
+  color: #fff;
+}
+.footer h3 {
+  color: #fff;
+  margin: 2em;
+}

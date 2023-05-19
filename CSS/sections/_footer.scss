@@ -1,0 +1,45 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.footer{
+    background-color: $black;
+    &__container{
+        @include flex(space-between,center)
+    }
+    li{
+        padding: 2em;
+        font-size: 1rem;
+        color: $white;
+    }
+    p{
+        color: $white;
+    }
+    form {
+            
+        width: 100%;
+        font-size: 0;
+    }
+        input{
+            padding: 3em;
+            border: none;
+            outline: none;
+            width: 70%;
+            border-top-left-radius:5px ;
+            border-bottom-left-radius: 5px;
+        }
+        button{
+            width: 20%;
+            padding: 3em 0;
+            border-top-right-radius:5px ;
+            border-bottom-right-radius: 5px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background-color: $orange;
+            color: $white;
+
+                    }
+                    h3{
+                        color: $white;
+                        margin: 2em;
+                    }
+    
+}

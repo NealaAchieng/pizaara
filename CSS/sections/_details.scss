@@ -1,0 +1,27 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.detail{
+    margin: 10em;
+&__container{
+    @include flex(space-between,center);
+}
+
+
+p{
+text-align: center;
+padding: 0.5em;
+}
+
+h2{
+    text-align: center;
+    padding: 1em;
+}
+.img{
+    background-color: $light-grey;
+    text-align: center;
+    padding: 2em;
+    width: 60%;
+    margin-right: 2em;
+}
+
+}
